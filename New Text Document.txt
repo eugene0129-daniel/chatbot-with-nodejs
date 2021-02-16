@@ -1,0 +1,29 @@
+const fs = require("fs");
+
+const zipFile = "./Dialogflow.zip";
+
+async function importAgent() {
+    try {
+        // converting zip file to base64 format
+        const base64ZipFile = await fs.readFileSync(zipFile).toString("base64");
+
+        const client = new dialogflow.AgentsClient({
+        });
+
+        const formattedParent = client.projectPath("java-docs-samples-testing");
+
+        [operation] = await client.importAgent({
+            parent: formattedParent,
+            agentContent: base64ZipFile
+
+        });
+        [response, oper] = await operation.promise();
+
+        console.log(response)
+        console.log(oper)
+    } catch (err) {
+        console.log(err)
+    }
+}
+
+importAgent()

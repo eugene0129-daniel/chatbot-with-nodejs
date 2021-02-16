@@ -1,0 +1,17 @@
+{
+  "name": "Web Speech AI Chatbot Demo",
+  "description": "Simple AI Chat Bot Demo with Web Speech API",
+  "repository": "https://github.com/girliemac/web-speech-ai",
+  "keywords": ["ai", "api.ai", "bot", "w3c"],
+  "env": {
+    "APIAI_TOKEN": {
+      "description": "API.ai Client access token",
+      "value":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCMzg+B9q38av5w\n3VNBUcL3lcEyn17IfuSxFFeoVryVdeXPS8pQxQ+EE197fTXIaL1fQupX/dHpnSqT\nkf0IPTHaieKBvfZ68VdZ3+jJHLHARAhx7B7VT00Ht9xg1sZdjcoMNFdcEVBzMD6p\nV7nP47kQsveTj/D+NQIZtyACecxPdFONdmPx5jmR6i0c9Qnjk7QgGK3Dbj55i861\nMNhixFv8Zq3mWjL7zbO6BRgjGdI3NRclAGoB1dfEx3DpaBKKUtH7I6l6ToC4m2QD\n+DOr3xo2AKvP38sniESZfivyIwiv380ANbA+AvItBgbnU+4n3NPm7HKE+Kep4v32\nBYrcejY3AgMBAAECggEAGGdMU8OLsxBeKfSKDeucRWnckqgBdvFbNH+ok6H4zFSj\nMFLb7TTCNCthZJc2X5YboCuKTxbML1eQfgQS3T8x6UT1j3P7iKJUd9yxTU3eVsrT\nxd7dFy5H1PseRGBk/+jnqEbYDzpm/ZfSfGoaZ7f5prXF5/rOE1jflNJix1sRuIFY\neE15SZTYTMpM/9yCzQ9gagodceqLfkhx93LOJgF3vffWgtVjdO+pc25wm60n+8al\nQ0pdOzckQjmyZM9TSmvRhLXMitBBvlxnWp1woXJ6kDe6kG+kmSDUB+0rOsKiY2fx\nykV9MIykmfzx4ImmB+qIHZxlIShhb+rACdX/oOEm4QKBgQDB8+VvaSTte9DvSZNQ\npf6uYqGRwzLw6Fus8bCbGBCGoRNrASHuLYk8YnH0ItvV+fpkdvtqWa3T76R7HHFG\n1WRxuCCrBCS51v2yg20vonEENUCSJNhwk3ShhApZKudhVPbowYyZVNzMTikqcfVt\nVsrOm90otqf0CyaNOT5Vh7nRIQKBgQC52YfncxTk3qE93fxX2fh5BlplZVOw/Kmp\n1yMH0v/iCTG8eUlkKQmNzJ43nilHxwZdCT1vDNCRQFzs+g7aXL9/efyH9urIBzHx\n2SUxqBuP6FW/WpXUBPMZfmK/ReaUen1P+PGP2YuLOMn/7xjqPNL1Rs+fr73xLSl1\nZqAGx/ukVwKBgGAod5vg2ToUpOW96JeXdMkohUorKNpfmPQJb7G1IJxex63JhfT8\nBoo1lKGhlrRjl0yv4L49b/0fVsDivRaNPZtT2n5vM3YfrPAQUNXJB5c6f6T1N4m4\n0Z4yRJ8oskaDRVbofriWZlG0fpxYm4F2Al6kz+UbifFohdiGhO0KuYmBAoGAYeoZ\nj/cxquMgUFgD+sT8A8c1GPapgTWcrb6K1jR0W8I8UfAUmpCEWBDVyrepSAezcpDL\nrRYzTFN8od2cta7ntWGvinKsf3ZK+gBNeDv5SXg+tPIkve9dpLDRlbReJxvhqaCe\npAsZWeAxjIWLut0Qx+jmulr813PTw+atqOTzz0ECgYEAjcFK2a2eupmO3NIOdBbN\nLujibeuFKvTkUPgPDXkGNRmtAgL/H4xUKdXx/ytsPtAwKKCpFhEevbh0WswDnzTJ\nMz4MqvSD2zgDcRQoLChxc57WFqH56sGFDz59jjDAlYIMHn4WEXua0IFHF03Tq1y6\ngqPgVVpZwKEbfRcDN3r8lu4=\n-----END PRIVATE KEY-----\n"
+    },
+    "APIAI_SESSION_ID": {
+      "description": "An arbitrary string",
+      "value": "123123"
+    }
+  },
+  "image": "heroku/nodejs"
+}
